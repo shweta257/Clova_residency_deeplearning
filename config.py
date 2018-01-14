@@ -2,7 +2,7 @@ import tensorflow as tf
 
 flags = tf.app.flags
 
-flags.DEFINE_string('dataset', '../Documents/own/study/CapsNet-Tensorflow/data/mnist', 'the path for dataset')
+flags.DEFINE_string('dataset', 'data/mnist', 'the path for dataset')
 flags.DEFINE_string('summaries_dir', 'summaries_dir', 'summary directory')
 flags.DEFINE_integer('train_sum_freq', 50, 'the frequency of saving train summary(step)')
 flags.DEFINE_integer('test_sum_freq', 500, 'the frequency of saving test summary(step)')
